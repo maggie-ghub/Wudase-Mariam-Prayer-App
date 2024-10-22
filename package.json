@@ -8,14 +8,37 @@
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
+  "expo": {
+    "splash": {
+      "image": "./Asset/image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": {
+      "source": "./Asset/image.png",
+      "ios": "./Asset/image.png",
+      "android": "./Asset/image.png"
+    }
+  },
   "dependencies": {
+    "@expo/config": "^8.1.1",
+    "@expo/metro-config": "^0.10.0",
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/drawer": "^6.6.6",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
     "expo": "~50.0.5",
+    "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.2"
+    "react-native": "0.73.2",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-web": "^0.19.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.2.0"
   },
   "private": true
 }
