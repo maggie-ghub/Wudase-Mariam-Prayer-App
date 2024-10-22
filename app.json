@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "slideMenu",
+    "slug": "slideMenu",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
